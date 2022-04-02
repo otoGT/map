@@ -81,7 +81,7 @@ function App() {
       zoom: 8
     }}
     style={{width:FullscreenControl, height:600}}
-    mapStyle="mapbox://styles/mapbox/streets-v9"
+    mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
   >
     {pins}
     {popupInfo && (
@@ -90,6 +90,9 @@ function App() {
         anchor="bottom"
         onClose={() => setPopupInfo(null)}>
        <p className='location-text'>{popupInfo.city}</p> 
+       <a target="_new" href={`http://en.wikipedia.org/w/index.php?title=Special:Search&search=${popupInfo.city}, ${popupInfo.state}`}>
+       </a>   
+       <img width="100%" quality="100%" src={popupInfo.image} />   
       </Popup>)}
 
       <ScaleControl />

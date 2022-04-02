@@ -2,18 +2,37 @@
     {
         "city":"Kutaisi",
         "lat":"42.25",
-        "lng":"42.7"
-        
+        "lng":"42.7",
+        "image":"https://georgiastartshere.com/wp-content/uploads/2016/06/guidewithme.com_.jpg"
     },
     {
         "city":"Tbilisi",
         "lat":"41.7225",
-        "lng":"44.7925"
-        
+        "lng":"44.7925",
+        "image":"https://static01.nyt.com/images/2018/06/17/travel/17hours1/merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-superJumbo.jpg"
     },
     {
         "city":"Batumi",
         "lat":"41.645833",
-        "lng":"41.641667"
+        "lng":"41.641667",
+        "image":"https://media.istockphoto.com/photos/batumi-adjara-georgia-panorama-of-modern-architecture-in-seafront-in-picture-id968025246?k=20&m=968025246&s=612x612&w=0&h=qEAlrtEUorx4dXytG9DieYe6WHhEizVG0y3_Sxe11CI="
+    },
+    {
+        "city":"Borjomi",
+        "lat":"41.838889",
+        "lng":"43.379167",
+        "image":"https://media-cdn.tripadvisor.com/media/photo-s/1b/06/f3/b5/borjom-kharagauli-national.jpg"
+    },
+    {
+        "city":"Bakuriani",
+        "lat":"41.75",
+        "lng":"43.533333",
+        "image":"https://media-cdn.tripadvisor.com/media/photo-s/15/f4/de/94/another-great-view.jpg"
+    },
+    {
+        "city":"Poti",
+        "lat":"42.15",
+        "lng":"41.666667",
+        "image":"https://cdn.mygeotrip.com/file_manager/images/Towns/Poti.jpg"
     }
 ]
